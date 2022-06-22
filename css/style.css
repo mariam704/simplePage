@@ -1,0 +1,167 @@
+body{
+	background-color: #ede8eb;
+}
+/*elr2esya*/
+.main{
+	width: 900px;
+	/* height: 700px; */
+	margin: auto ;
+padding: 0px ! important;
+	background-color: #fff;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+/*nav*/
+
+.list{
+	float: right;
+	list-style-type: none;
+}
+header ul li {float: left;
+	padding: 10px;
+}
+
+	ul li a {
+	text-decoration: none;
+	color: #eab179;
+}
+ul li a:hover{color: #ede8eb; }
+
+.logo {
+	height: 90px;
+}
+
+.logo1{
+ float: left;
+ margin-left: 30px;
+
+}
+.logo2{
+margin-right: 30px;
+float: right;
+
+}
+.menu{
+	padding-left: 100px;
+	padding-top: 10px;
+	list-style-type: none;
+	font-size: 16px;
+}
+.menu li{
+	float: left;
+	width: 80px;
+	padding-right: 10px;
+	padding-left: 8px;
+	font-size: 16px;
+	text-align: center;
+}
+.menu li a{
+	color: black;
+}
+.link1{
+	background-color: #cca4bd;
+
+}
+.link2:hover a{
+	display: block;
+	background: #d41a8e;
+}
+.link3:hover{
+	background-color: #1dbbd1;
+}
+.link4:hover{
+	background-color: #2196f4;
+}
+.link5:hover{
+	background-color: #9ed5ba;
+}
+.link6:hover{background-color:#ec7970; }
+.link7:hover{background-color: #535269}
+.link8:hover{background-color: pink;}
+
+.sub-menu {
+	display: none;
+	padding-left: 0;
+	list-style-type: none;
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+}
+
+
+
+.menu li:hover > .sub-menu {
+	display: inline-block;
+	line-height:20px;
+	position: absolute;
+}
+
+article{
+	/* width: 500px; */
+	padding-top: 30px;
+	padding-left: 50px;
+	display: flex;
+	align-items: flex-end;
+	
+}
+article h1{
+	font-size: 20px;
+}
+article header{
+	
+	float: left;
+	width: 200px;
+}
+article header b{
+	font-size: 12px;
+	color: #888;
+}
+article header main a{
+	text-decoration: none;
+	color: #333;
+}
+article header main a:hover{
+	text-decoration: underline black;
+
+}
+article .eyecontent {}
+article .eyecontent .Eyeshadow{
+	/* float: right;
+	width: 200px;
+	margin-top:60px;
+	margin-left:100px; */
+	display: flex;
+	flex-direction: column;
+	margin: 38px 50px;
+}
+.java{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.java .btn{
+	border-radius: 8px;
+    border-color: bisque;
+    box-shadow: 0px 0px 0 0px black;
+
+background-color: transparent;
+}
+footer {
+	margin-top: 50px;
+    display: flex;
+	background: hsl(222deg 12% 72% / 46%);
+    justify-content: center;
+    padding: 18px;
+}
+footer p{
+color:black;
+text-align: center;
+text-transform: capitalize;
+letter-spacing: 0.25rem;
+margin-bottom: 0;
+}
